@@ -1,0 +1,67 @@
+# Ignore system files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore dependencies and virtual environments
+venv/
+env/
+node_modules/
+package-lock.json
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Docker Compose and Docker-related files
+docker-compose.override.yml
+docker-compose.yml
+.dockerignore
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore generated files and build artifacts
+*.swp
+*.swo
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.temp
+*.o
+*.a
+*.out
+*.go
+*.exe
+
+# Ignore backup files
+*.bak
+*.backup
+*.bk
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+
+# Ignore local configuration files
+config.yaml
+config.toml
+
+# Ignore runtime directories
+runtime/

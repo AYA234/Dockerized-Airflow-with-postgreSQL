@@ -1,0 +1,7 @@
+sqlalchemy
+psycopg2-binary 
+pandas
+dash
+plotly
+Werkzeug
+flask
